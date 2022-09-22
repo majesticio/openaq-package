@@ -1,9 +1,9 @@
 [build-system]
-requires = ["hatchling"]
+requires = ["hatchling","pandas","requests"]
 build-backend = "hatchling.build"
 
 [project]
-name = "openaq"
+name = "openaqlib"
 version = "0.0.1"
 authors = [
   { name="Gabe", email="gabe@openaq.org" },
@@ -21,3 +21,4 @@ classifiers = [
 [project.urls]
 "Homepage" = "https://github.com/majesticio/openaq-package"
 "Bug Tracker" = "https://github.com/majesticio/openaq-package/issues"
+
